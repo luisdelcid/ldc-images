@@ -5,7 +5,7 @@
 if(!function_exists('ldc_cl_add_image_size')){
 	function ldc_cl_add_image_size(){
 		if(!class_exists('Cloudinary')){
-            $dir = ldc_upload_basedir() . '/github/cloudinary/cloudinary_php';
+            $dir = ldc_upload_basedir() . '/github/cloudinary/cloudinary_php/2.0.3';
             $url = 'https://github.com/cloudinary/cloudinary_php/archive/2.0.3.zip';
             $result = ldc_download_and_unzip($dir, $url);
             if(is_wp_error($result)){

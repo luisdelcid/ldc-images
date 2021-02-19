@@ -10,7 +10,7 @@ Network:
 Plugin Name: LDC Images
 Plugin URI: https://github.com/luisdelcid/ldc-images
 Text Domain: ldc-images
-Version: 0.2.19
+Version: 0.2.19.1
 */
 
 if(defined('ABSPATH')){
